@@ -1,33 +1,27 @@
-import { TrendingUp, BrainCircuit, BarChart3 } from 'lucide-react';
+import { TrendingUp, Zap, BarChart3, Wifi, BatteryCharging, Shield } from 'lucide-react';
 import { FadeIn } from '../fade-in';
 
 const features = [
   {
-    icon: TrendingUp,
-    title: 'Attribution Modeling',
-    description: 'Track every touchpoint in your customer journey with advanced multi-touch attribution and real-time conversion tracking.',
+    icon: Zap,
+    title: '100% Solar-Powered',
+    description: 'Operates entirely off-grid with deep-cycle batteries, ensuring zero electricity costs and 24/7 uptime, even during power outages.',
     bgColor: 'bg-emerald-500/10',
     iconColor: 'text-emerald-400',
-    link: '#',
-    linkText: 'View attribution',
   },
   {
-    icon: BrainCircuit,
-    title: 'Predictive Intelligence',
-    description: 'AI-powered forecasting and recommendations to optimize your marketing spend and predict customer lifetime value.',
-    bgColor: 'bg-violet-500/10',
-    iconColor: 'text-violet-400',
-    link: '#',
-    linkText: 'View predictions',
-  },
-  {
-    icon: BarChart3,
-    title: 'Real-Time Analytics',
-    description: 'Monitor your campaigns as they happen with live data streams and instant alerts for performance changes.',
+    icon: Wifi,
+    title: 'Smart, Adaptive Control',
+    description: 'Microwave sensors and Wi-Fi mesh networking enable real-time traffic analysis and synchronized signal adjustments to optimize flow.',
     bgColor: 'bg-blue-500/10',
     iconColor: 'text-blue-400',
-    link: '#',
-    linkText: 'View live data',
+  },
+  {
+    icon: BatteryCharging,
+    title: 'Energy Efficiency',
+    description: 'Our system intelligently manages power consumption, maximizing battery life and ensuring reliable, long-term operation.',
+    bgColor: 'bg-amber-500/10',
+    iconColor: 'text-amber-400',
   },
 ];
 
@@ -38,17 +32,17 @@ export default function FeaturesSection() {
         <FadeIn>
           <div className="text-center max-w-3xl mx-auto mb-12">
             <h2 className="text-4xl md:text-5xl text-white mb-6 font-manrope font-light tracking-tighter">
-              Everything you need to <span className="bg-gradient-to-r from-emerald-400 to-blue-500 bg-clip-text text-transparent">scale intelligently</span>
+              Core Features of <span className="bg-gradient-to-r from-emerald-400 to-blue-500 bg-clip-text text-transparent">Solaris Traffic</span>
             </h2>
             <p className="text-lg text-white/70 max-w-2xl mx-auto">
-              Advanced analytics tools designed for modern growth teams who demand precision, speed, and actionable insights.
+              Our system is engineered for reliability, efficiency, and a sustainable future.
             </p>
           </div>
         </FadeIn>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {features.map((feature, index) => (
             <FadeIn key={feature.title} delay={`${index * 100}ms`}>
-              <div className="group relative h-full bg-gradient-to-b from-[#0f1419]/90 via-[#131a24]/95 to-[#0a0f14]/90 border border-white/[0.08] rounded-3xl shadow-lg backdrop-blur-xl p-8 transition-shadow hover:shadow-md">
+              <div className="group relative h-full bg-card/80 border border-white/[0.08] rounded-3xl shadow-lg backdrop-blur-xl p-8 transition-shadow hover:shadow-md">
                 <div className={`mb-6 inline-flex h-12 w-12 items-center justify-center rounded-2xl ${feature.bgColor}`}>
                   <feature.icon className={`h-6 w-6 ${feature.iconColor}`} />
                 </div>

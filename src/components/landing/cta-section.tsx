@@ -8,7 +8,7 @@ export default function CtaSection() {
         <FadeIn>
           <div className="max-w-4xl mx-auto relative">
              <div className="absolute -inset-8 bg-gradient-to-r from-emerald-500/10 via-blue-500/10 to-violet-500/10 rounded-3xl blur-2xl"></div>
-            <div className="relative bg-gradient-to-b from-[#0f1419]/90 via-[#131a24]/95 to-[#0a0f14]/90 border border-white/[0.08] rounded-3xl shadow-2xl backdrop-blur-xl p-8 lg:p-12">
+            <div className="relative bg-card/80 border border-white/[0.08] rounded-3xl shadow-2xl backdrop-blur-xl p-8 lg:p-12">
               <div className="text-center mb-8">
                 <h2 className="text-4xl md:text-5xl text-white mb-6 font-manrope font-light tracking-tighter">
                   Join the Future of Smart Cities

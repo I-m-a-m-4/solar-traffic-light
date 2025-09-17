@@ -23,19 +23,17 @@ export default function HeroSection() {
         <div className="text-center max-w-4xl mx-auto mb-16">
           <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-emerald-500/10 ring-1 ring-emerald-500/20 text-emerald-300 text-sm font-medium mb-8 animate-[fadeIn_0.8s_ease-out_0.2s_both]">
             <div className="h-2 w-2 rounded-full bg-emerald-400 animate-pulse"></div>
-            New: Real-time attribution modeling
+            New: Smart Solar-Powered Systems
           </div>
           <h1 className="md:text-7xl text-4xl font-light text-white tracking-tighter font-manrope mb-6 animate-[slideUp_0.8s_ease-out_0.4s_both]">
-            Marketing Intelligence
+            Revolutionize Traffic with 
             <span className="bg-clip-text text-transparent bg-neutral-50">
               {' '}
-              Reimagined
+              Smart Solar-Powered Systems
             </span>
           </h1>
           <p className="text-lg md:text-xl text-white/70 mb-8 leading-relaxed animate-[slideUp_0.8s_ease-out_0.6s_both]">
-            Transform your marketing data into actionable insights with advanced
-            attribution modeling, real-time analytics, and predictive
-            intelligence that scales with your growth.
+           Self-sustaining, sensor-driven traffic lights to reduce congestion, save energy, and cut emissions.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 animate-[slideUp_0.8s_ease-out_0.8s_both]">
             <a

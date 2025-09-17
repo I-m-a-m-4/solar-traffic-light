@@ -69,7 +69,7 @@ export default function AnalysisClient() {
 
   return (
     <div className="mt-12">
-      <Card className="bg-gradient-to-b from-[#0f1419]/90 via-[#131a24]/95 to-[#0a0f14]/90 border border-white/[0.08] shadow-2xl backdrop-blur-xl">
+      <Card className="bg-card/80 border border-white/[0.08] shadow-2xl backdrop-blur-xl">
         <CardHeader>
           <CardTitle className="text-2xl text-white font-manrope font-light tracking-tighter">Submit Data for Analysis</CardTitle>
           <CardDescription className="text-white/70">
@@ -133,7 +133,7 @@ export default function AnalysisClient() {
                           <SelectValue placeholder="Select a report type" />
                         </SelectTrigger>
                       </FormControl>
-                      <SelectContent className="bg-[#131a24] border-white/10">
+                      <SelectContent className="bg-card border-white/10">
                         <SelectItem value="daily">Daily</SelectItem>
                         <SelectItem value="weekly">Weekly</SelectItem>
                         <SelectItem value="monthly">Monthly</SelectItem>
