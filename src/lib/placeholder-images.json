@@ -1,0 +1,71 @@
+
+{
+  "placeholderImages": [
+    {
+      "id": "hero-image",
+      "description": "A high-quality image of the solar-powered traffic system in a modern city.",
+      "imageUrl": "/traffic3.jpg",
+      "imageHint": "traffic light city"
+    },
+    {
+      "id": "hero-image-2",
+      "description": "A high-quality image of a high-tech traffic light.",
+      "imageUrl": "/traffic2.jpg",
+      "imageHint": "futuristic traffic light"
+    },
+        {
+      "id": "hero-image-3",
+      "description": "A high-quality image of a high-tech traffic light.",
+      "imageUrl": "/traffic1.jpg",
+      "imageHint": "futuristic traffic light"
+    },
+    {
+      "id": "problem-image",
+      "description": "An image depicting heavy traffic congestion in a city.",
+      "imageUrl": "https://picsum.photos/seed/2/600/400",
+      "imageHint": "traffic congestion"
+    },
+    {
+      "id": "solution-image",
+      "description": "A 3D design of the proposed smart traffic light.",
+      "imageUrl": "https://picsum.photos/seed/traffic-light-3d/600/400",
+      "imageHint": "3d traffic light"
+    },
+    {
+      "id": "value-prop-image",
+      "description": "An infographic or chart showing the benefits of the system.",
+      "imageUrl": "https://picsum.photos/seed/city-flow/600/400",
+      "imageHint": "city traffic flow"
+    },
+    {
+      "id": "market-image",
+      "description": "An image representing a smart city with interconnected technology.",
+      "imageUrl": "https://picsum.photos/seed/smart-city-network/600/400",
+      "imageHint": "smart city"
+    },
+    {
+      "id": "footer-logo",
+      "description": "A small logo or icon for the footer.",
+      "imageUrl": "https://picsum.photos/seed/6/40/40",
+      "imageHint": "logo icon"
+    },
+    {
+      "id": "attribution-model-bg",
+      "description": "Abstract background for attribution modeling card.",
+      "imageUrl": "https://picsum.photos/seed/abstract-green/400/300",
+      "imageHint": "abstract green"
+    },
+    {
+      "id": "predictive-analytics-bg",
+      "description": "Abstract background for predictive analytics card.",
+      "imageUrl": "https://picsum.photos/seed/abstract-violet/400/300",
+      "imageHint": "abstract violet"
+    },
+    {
+      "id": "real-time-analytics-bg",
+      "description": "Abstract background for real-time analytics card.",
+      "imageUrl": "https://picsum.photos/seed/abstract-blue/400/300",
+      "imageHint": "abstract blue"
+    }
+  ]
+}
