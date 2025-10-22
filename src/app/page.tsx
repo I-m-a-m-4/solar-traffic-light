@@ -6,7 +6,6 @@ import SolutionSection from '@/components/landing/solution-section';
 import ValuePropositionSection from '@/components/landing/value-prop-section';
 import MarketOpportunitySection from '@/components/landing/market-section';
 import CompetitiveAdvantageSection from '@/components/landing/competition-section';
-import CtaSection from '@/components/landing/cta-section';
 import FeaturesSection from '@/components/landing/features-section';
 
 export default function Home() {
@@ -21,7 +20,7 @@ export default function Home() {
         <ValuePropositionSection />
         <MarketOpportunitySection />
         <CompetitiveAdvantageSection />
-        <CtaSection />
+
       </main>
       <Footer />
     </div>
