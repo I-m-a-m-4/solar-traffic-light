@@ -36,30 +36,7 @@ export default function HeroSection() {
            Self-sustaining, sensor-driven traffic lights to reduce congestion, save energy, and cut emissions.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 animate-[slideUp_0.8s_ease-out_0.8s_both]">
-            <a
-              href="#"
-              className="inline-flex items-center justify-center gap-2 animate-float tracking-tight pt-4 pr-8 pb-4 pl-8"
-              style={
-                {
-                  '--green': '#1BFD9C',
-                  fontSize: '18px',
-                  letterSpacing: '0.06em',
-                  position: 'relative',
-                  fontFamily: 'inherit',
-                  borderRadius: '1rem',
-                  overflow: 'hidden',
-                  lineHeight: '1.4em',
-                  border: '2px solid var(--green)',
-                  background:
-                    'linear-gradient(to right, rgba(27, 253, 156, 0.1) 1%, transparent 40%, transparent 60%, rgba(27, 253, 156, 0.1) 100%)',
-                  color: 'var(--green)',
-                  boxShadow:
-                    'rgba(27, 253, 156, 0.4) 0px 0px 10px inset, rgba(27, 253, 156, 0.1) 0px 0px 9px 3px',
-                } as React.CSSProperties
-              }
-            >
-              Get Started Free
-            </a>
+            
             <Button
               size="lg"
               variant="outline"
@@ -68,20 +45,6 @@ export default function HeroSection() {
             >
               <Link href="/analysis">Watch Demo</Link>
             </Button>
-          </div>
-          <div className="flex items-center justify-center gap-8 mt-12 text-sm text-white/40 animate-[fadeIn_0.8s_ease-out_1s_both]">
-            <div className="flex items-center gap-2">
-              <Check className="h-4 w-4 text-emerald-400" />
-              No credit card required
-            </div>
-            <div className="flex items-center gap-2">
-              <Check className="h-4 w-4 text-emerald-400" />
-              14-day free trial
-            </div>
-            <div className="flex items-center gap-2">
-              <Check className="h-4 w-4 text-emerald-400" />
-              Setup in 5 minutes
-            </div>
           </div>
         </div>
 

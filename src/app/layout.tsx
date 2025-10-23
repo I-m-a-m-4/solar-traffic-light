@@ -32,7 +32,7 @@ export default function RootLayout({
         )}
       >
         {children}
-        <Toaster />
+        
       </body>
     </html>
   );
